@@ -3,4 +3,13 @@
     <string name="welcome_to">Welcome to</string>
     <string name="start">Start</string>
     <string name="beer_list">BEER LIST</string>
+    <string name="name">Name :</string>
+    <string name="nombre_cerveza">Nombre cerveza</string>
+    <string name="tagline">Tagline</string>
+    <string name="lema">Lema</string>
+    <string name="descripcion" >DescripcionDescripcionDescripcionDescripcionDescripcionDescripcionDescripcionDescripcionDescripcionDescripcionDescripcionDescripcion</string>
+    <string name="grado_fermentacion">Grade for its fermentation</string>
+    <string name="alcohol_percentage">Alcohol percentage</string>
+    <string name="exe_perc">14%</string>
+    <string name="search">Search</string>
 </resources>

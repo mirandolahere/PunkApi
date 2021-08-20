@@ -9,17 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PunkApi">
-        <activity android:name=".MainActivity">
+        <activity android:name=".welcome.WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".welcome.WelcomeActivity"
+            android:name=".beer.BeerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".beer.BeerDetail"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"/>
     </application>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/rlDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="6"
+        android:gravity="center"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/rlImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNameBeer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/nombre_cerveza"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/yellow"
+                android:textSize="24sp" />
+
+
+            <ImageView
+                android:id="@+id/imgBeer"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/rlDetailItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion"
+                android:paddingStart="2dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grado_fermentacion"
+                android:paddingStart="2dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvFermentation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-light"
+                android:text="14 celsius"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"
+                android:textSize="14sp" />
+
+
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alcohol_percentage"
+                android:paddingStart="2dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/gray"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/tvPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/exe_perc"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tvTagLineDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/descripcion"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textColor="@color/purple_200"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
