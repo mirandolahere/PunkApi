@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:text="@string/beer_list"
+        android:textColor="@color/gray"
+        android:textSize="20sp" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:drawableStart="@drawable/ic_search"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvTitle"
+        android:background="@drawable/edtx_search"
+        />
+</RelativeLayout>
